@@ -1,0 +1,23 @@
+[
+    {
+      "text": "Table users(id, name, region). Contains customer details."
+    },
+    {
+      "text": "Table orders(id, user_id, total_amount, order_date). Stores customer orders."
+    },
+    {
+      "text": "Table order_items(id, order_id, product_id, quantity, price). Stores items in each order."
+    },
+    {
+      "text": "Table products(id, name, category_id, price). Product details."
+    },
+    {
+      "text": "Table categories(id, name). Product categories."
+    },
+    {
+      "text": "Revenue is calculated as quantity * price from order_items."
+    },
+    {
+      "text": "Example: Total revenue per user requires joining orders and order_items."
+    }
+  ]
